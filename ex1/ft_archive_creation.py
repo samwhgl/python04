@@ -1,9 +1,14 @@
 # ft_archive_creation.py
+"""
+Cyber Archives - Preservation System.
+
+This script creates a new archive file and writes preserved data into it.
+"""
 
 print("=== CYBER ARCHIVES - PRESERVATION SYSTEM ===")
 print("Initializing new storage unit: new_discovery.txt")
 
-file = open("new_discovery.txt", "w")
+file = open("new_discovery.txt", "w", encoding="utf-8")
 print("Storage unit created successfully...")
 print("Inscribing preservation data...")
 
